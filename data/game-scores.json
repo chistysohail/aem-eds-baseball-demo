@@ -1,0 +1,20 @@
+{
+  "games": [
+    {
+      "team": "Blue Jays",
+      "score": 8
+    },
+    {
+      "team": "Tigers",
+      "score": 2
+    },
+    {
+      "team": "Red Sox",
+      "score": 7
+    },
+    {
+      "team": "Yankees",
+      "score": 4
+    }
+  ]
+}

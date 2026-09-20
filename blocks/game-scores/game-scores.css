@@ -27,3 +27,44 @@
   font-weight: 700;
   text-align: center;
 }
+
+.game-scores .winning-score {
+  background: #f0fff4;
+}
+
+.game-scores .winning-score .team-score {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.game-scores .winning-score::after {
+  content: "🔥";
+  margin-right: 20px;
+}
+
+.game-scores .game {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 24px;
+  padding: 24px;
+}
+
+.game-scores .team {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.game-scores .team-name {
+  font-weight: 600;
+}
+
+.game-scores .team-score {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.game-scores .versus {
+  font-weight: 700;
+}
