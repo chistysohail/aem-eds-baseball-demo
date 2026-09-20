@@ -1,0 +1,29 @@
+.game-scores {
+  max-width: 700px;
+  margin: 32px auto;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.game-scores > div {
+  display: grid;
+  grid-template-columns: 1fr 100px;
+  align-items: center;
+  padding: 16px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.game-scores > div:last-child {
+  border-bottom: none;
+}
+
+.game-scores .team-name {
+  font-weight: 600;
+}
+
+.game-scores .team-score {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+}
